@@ -14,3 +14,5 @@ Problem_1 <- function(max, vector) {
   }
   return(out)
 }
+
+Problem_1(1000,c(3,5))
