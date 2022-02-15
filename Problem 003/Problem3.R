@@ -6,9 +6,6 @@ Problem_3 <- function(n) {
     else if ( (p%%6 != 1) & (p%%6 != 5) ) {
       out <- FALSE
     }
-    else if ( (p%%30 != 1) & (p%%30 != 7) & (p%%30 != 11) & (p%%30 != 17) & (p%%30 != 19) & (p%%30 != 23) & (p%%30 != 29) ) {
-      out <- FALSE
-    }
     else {
       out <- TRUE
       for (i in 2:ceiling(sqrt(p))) {
@@ -44,5 +41,3 @@ Problem_3 <- function(n) {
   }
   return(factor)
 }
-
-
