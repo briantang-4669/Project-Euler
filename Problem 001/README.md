@@ -6,22 +6,24 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 ---
 
+### Solution 
+
+I wanted to generalize this exercise by making a function that takes an arbritrary max value, and a vector containing any number of multiples. 
+
+First I made a function ``` is_multiple(n, vector) ``` that checks if the number *n* is a multiple of any element of the vector.
+The default output is false, that is *n* is not a multiple of any element of the vector. Then there is a for-loop that goes through the vector checking if
+*n* mod *vector[i]* was equal to 0.
+
+Now all that is left is to loop through the integers from *1* to the *max number - 1*, testing if each integer was a multiple. If it was it would add it to the output. At the end it would output the sum.
+
+
+In R
 ```R
-Problem_1 <- function(max, vector) {
-  is_multiple <- function(n, vector) {
-    out <- FALSE
-    for (i in 1:length(vector)) {
-      out <- out|((n%%vector[i]) == 0)
-    }
-    return(out)
-  }
-  out <- 0
-  for (i in 1:max-1) {
-    if (is_multiple(i,vector)) {
-      out <- out + i
-    }
-  }
-  return(out)
-}
+> Problem_1(1000, c(3,5)) 
+[1] 233168
 ```
+
+
+
+
 
