@@ -41,3 +41,5 @@ Problem_3 <- function(n) {
   }
   return(factor)
 }
+
+Problem_3(600851475143)
