@@ -1,4 +1,4 @@
-Problem_4 <- function(n) {
+Problem_5 <- function(n) {
   candidate <- 1
   for (i in 2:n) {
     mult <- i
