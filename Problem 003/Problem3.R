@@ -1,6 +1,6 @@
 Problem_3 <- function(n) {
   is_prime <- function(p) {
-    if (p == 2 & p == 3 & p == 5) {
+    if (p == 2 | p == 3 | p == 5) {
       out <- TRUE
     }
     else if ( (p%%6 != 1) & (p%%6 != 5) ) {
