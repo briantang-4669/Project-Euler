@@ -6,3 +6,7 @@ What is the largest prime factor of the number 600851475143?
 
 ---
 
+```R
+> Problem_3(600851475143)
+[1] 6857
+```
