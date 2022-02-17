@@ -1,4 +1,4 @@
-## Problem 5: Smallest multiple
+## Problem 6: Sum square difference
 
 The sum of the squares of the first ten natural numbers is, 
 <p align="center">1<sup>2</sup> + 2<sup>2</sup> + . . . + 10<sup>2</sup> = 385</p>
