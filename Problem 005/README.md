@@ -6,6 +6,6 @@ What is the smallest positive number that is *evenly divisible* by all of the nu
 
 ---
 ```R
-> Problem_6(10)
-[1] 2640
+Problem_5(20)
+[1] 232792560
 ```
