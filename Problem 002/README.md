@@ -21,11 +21,7 @@ Then I filled the array defining the next term as *f*<sub>*n*</sub> = *f*<sub>*n
   n <- n+1
  }
  ```
- Notice that the third term is odd. That is because the first term was odd and the second term was even. 
- 
- <p align="center">ODD + EVEN = ODD</p>
- 
-Then the 4th term is also odd. Because the 3rd and 4th term are both odd, the 5th term must be even. And the cycle continues. The even terms appear every third term starting at the second term. I can then convert every non term into a 0.
+ Notice that the third term is odd. That is because the first term was odd and the second term was even. Then the 4th term is also odd. Because the 3rd and 4th term are both odd, the 5th term must be even. And the cycle continues. The even terms appear every third term starting at the second term. I can then convert every non term into a 0.
 
 ```R
 for (i in 1:length(fib)) {
