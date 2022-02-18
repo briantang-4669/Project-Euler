@@ -16,21 +16,21 @@ Problem_7 <- function(n) {
       return(TRUE)
     }
   }
-  primes <- 2
+  prime <- 2
   for (i in 2:n) {
-    j <- primes+1
+    j <- prime+1
     while (TRUE) {
       if (is_prime(j)) {
-        primes <- j
+        prime <- j
         break
-      } 
+      }
       j <- j + 1
     }
   }
   if (n == 1) {
-    primes <- 2
+    prime <- 2
   }
-  return(primes)
+  return(prime)
 }
 
 Problem_7(10001)
